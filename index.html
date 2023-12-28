@@ -19,6 +19,38 @@
             </ul>
         </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Jackie Crowley</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <section id="profile">
+        <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Jackie Crowley profile picture"/>
+        </div>
+        <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jackie</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"></button>
+        </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
