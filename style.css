@@ -333,27 +333,40 @@ section {
 
 #projects {
     position: relative;
+    text-align: center;
   }
   
   .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    background: transparent;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 15px;
   }
   
   .project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
   }
   
   .project-title {
     margin: 1rem;
     color: black;
+    font-size: 1.2em;
   }
   
   .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
+    color: white;
+    background-color: #007bff; /* Example primary color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Slightly rounded edges for buttons */
+    margin-top: 10px; /* Spacing above buttons */
+    text-transform: uppercase; /* Capitalize button text */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
   }
 
 
