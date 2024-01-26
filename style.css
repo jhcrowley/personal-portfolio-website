@@ -358,7 +358,7 @@ section {
   
   .project-btn {
     color: white;
-    background-color: #007bff; /* Example primary color */
+    background-color: grey; /* Example primary color */
     border: none;
     padding: 10px 20px;
     border-radius: 5px; /* Slightly rounded edges for buttons */
@@ -367,7 +367,50 @@ section {
     font-weight: bold;
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
+
+.project-link {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Keeps the color same as the h2 tag */
   }
+  
+  .project-link:hover, .project-link:focus {
+    text-decoration: underline; /* Adds an underline on hover for visual feedback */
+  }
+
+  .article-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(128, 128, 128, 0.7); /* Opaque grey */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .article-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+
 
 
   /* CONTACT */
