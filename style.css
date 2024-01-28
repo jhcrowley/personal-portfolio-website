@@ -156,10 +156,9 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
+    min-height: 96vh;
 }
 
 .section-container {
@@ -535,17 +534,70 @@ section {
   .email-icon {
     height: 2.5rem;
   }
+
+
+
+    /* JUNO Learning Page */
+    #juno-learning .project-title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+    }
+    
+    #juno-learning .section {
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    #juno-learning .genesis, 
+    #juno-learning .problem, 
+    #juno-learning .next-steps, 
+    #juno-learning .lessons-learned {
+        background-color: #f0f0f0; /* Light grey background */
+    }
+    
+    #juno-learning .design, 
+    #juno-learning .figma-mockups, 
+    #juno-learning .key-features {
+        background-color: #ffffff; /* White background */
+    }
+    
+    #juno-learning h2 {
+        color: #333333; /* Darker text for headings */
+        margin-bottom: 20px;
+    }
+    
+    #juno-learning .project-image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    #juno-learning .closing-remark {
+        text-align: center;
+        margin-top: 40px;
+        font-style: italic;
+    }
+    
   
   /* FOOTER SECTION */
   
   footer {
-    height: 26vh;
+    clear: both;
+    padding-top: 40px; /* Add padding to create space */
+    height: auto;
     margin: 0 1rem;
   }
   
   footer p {
     text-align: center;
   }
+
+
+
+
 
 
 
