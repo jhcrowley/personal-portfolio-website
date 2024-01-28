@@ -408,6 +408,7 @@ section {
     border-radius: 0;
     width: 100%;
     height: auto;
+    aspect-ratio: 2100 / 1800;
   }
   
   .project-title {
