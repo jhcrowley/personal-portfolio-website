@@ -581,6 +581,141 @@ section {
         margin-top: 40px;
         font-style: italic;
     }
+
+    /* UBC Dawn App Page */
+    #ubc-dawn .project-title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+    }
+    
+    #ubc-dawn .section {
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    #ubc-dawn .introduction, 
+    #ubc-dawn .my-role, 
+    #ubc-dawn .conclusion {
+        background-color: #f0f0f0; /* Light grey background */
+    }
+    
+    #ubc-dawn .messaging-page {
+        background-color: #ffffff; /* White background */
+    }
+    
+    #ubc-dawn h2 {
+        color: #333333; /* Darker text for headings */
+        margin-bottom: 20px;
+    }
+    
+    #ubc-dawn .project-image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    #ubc-dawn .closing-remark {
+        text-align: center;
+        margin-top: 40px;
+        font-style: italic;
+    }
+
+    #ubc-dawn .logo-image{
+        width: 100%; /* Set the width to 100% of the container */
+        height: auto; /* Height will scale automatically */
+        max-width: 400px; /* Maximum width, adjust as needed */
+        display: block; /* Display as a block */
+        margin: 20px auto; /* Center the image with auto margins */
+        border-radius: 5px; /* Optional: rounded corners */
+        
+    }
+
+    #ubc-dawn .message-image{
+        width: 100%; /* Set the width to 100% of the container */
+        height: auto; /* Height will scale automatically */
+        max-width: 800px; /* Maximum width, adjust as needed */
+        display: block; /* Display as a block */
+        margin: 20px auto; /* Center the image with auto margins */
+        border-radius: 5px; /* Optional: rounded corners */
+        
+    }
+
+
+
+    #ubc-dawn .project-image {
+        width: 100%; /* Set the width to 100% of the container */
+        height: auto; /* Height will scale automatically */
+        max-width: 1000px; /* Maximum width, adjust as needed */
+        display: block; /* Display as a block */
+        margin: 20px auto; /* Center the image with auto margins */
+        border-radius: 5px; /* Optional: rounded corners */
+    }
+    
+
+    /* Currency Exchange App */
+    #currency-exchange-app .project-title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+    }
+    
+    #currency-exchange-app .section {
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    #currency-exchange-app .introduction, 
+    #currency-exchange-app .next-steps {
+        background-color: #f0f0f0; /* Light grey background */
+    }
+    
+    #currency-exchange-app .project-details {
+        background-color: #ffffff; /* White background */
+    }
+    
+    #currency-exchange-app h2 {
+        color: #333333; /* Darker text for headings */
+        margin-bottom: 20px;
+    }
+    
+    #currency-exchange-app .project-image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    #currency-exchange-app .closing-remark {
+        text-align: center;
+        margin-top: 40px;
+        font-style: italic;
+    }
+
+    #currency-exchange-app .media-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    
+    #currency-exchange-app .code-image, 
+    #currency-exchange-app .app-video {
+        width: 48%; /* Adjust the width as needed */
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for depth */
+    }
+    
+    #currency-exchange-app .app-video {
+        max-height: 240px; /* Adjust the height as needed */
+    }
+    
+    
     
   
   /* FOOTER SECTION */
