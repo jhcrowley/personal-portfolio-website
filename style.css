@@ -582,6 +582,16 @@ section {
         font-style: italic;
     }
 
+    #juno-learning .logo-image{
+        width: 100%; /* Set the width to 100% of the container */
+        height: auto; /* Height will scale automatically */
+        max-width: 600px; /* Maximum width, adjust as needed */
+        display: block; /* Display as a block */
+        margin: 20px auto; /* Center the image with auto margins */
+        border-radius: 5px; /* Optional: rounded corners */
+        
+    }
+
     /* UBC Dawn App Page */
     #ubc-dawn .project-title {
         text-align: center;
