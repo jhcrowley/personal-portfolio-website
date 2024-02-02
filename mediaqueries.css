@@ -17,5 +17,63 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    /* Adjustments for tablets and down to larger phones */
+    .nav-links, .btn-container, .section-container, .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project, .activity, .contact-info-container, .profile-pic-container, .details-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-img, .activity-image, .about-pic {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-links li {
+        padding: 10px;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments specifically for smaller phones like iPhones */
+    .btn, .project-title, h2 {
+        font-size: smaller;
+    }
+
+    .project-image-container, .media-container .code-image, .media-container .app-video {
+        flex-direction: column;
+    }
+
+    .media-container .code-image, .media-container .app-video {
+        width: 90%; /* Adjust the width to fit smaller screens */
+    }
+
+    .section__text__p1, .section__text__p2 {
+        font-size: 1rem; /* Adjust the font size for readability on smaller screens */
+    }
+
+    .rounded-rectangle {
+        font-size: 0.8rem; /* Smaller font size for the education container */
+    }
+}
+
+
 
 
