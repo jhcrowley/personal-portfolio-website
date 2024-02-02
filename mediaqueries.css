@@ -24,7 +24,7 @@
         align-items: center;
     }
 
-    .project, .activity, .contact-info-container, .profile-pic-container, .details-container {
+    .project, .activity, .contact-info-container, .details-container {
         width: 100%;
         text-align: center;
     }
