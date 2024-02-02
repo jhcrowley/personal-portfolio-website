@@ -65,9 +65,15 @@
     }
     .about-containers,
     .contact-info-upper-container,
-    .btn-container {
+    .btn-container{
       flex-wrap: wrap;
     }
+
+    .profile-pic-container, .details-container{
+        flex: wrap;
+        size: 50%;
+    }
+
     .contact-info-container {
       margin: 0;
     }
@@ -86,11 +92,13 @@
       gap: 0.5rem;
       text-align: center;
     }
-    .section__pic-container {
+
+    .section__pic-container, .profile-pic-container {
       width: auto;
       height: 46vw;
       justify-content: center;
     }
+
     .section__text__p2 {
       font-size: 1.25rem;
     }
@@ -100,6 +108,18 @@
     .text-container {
       text-align: justify;
     }
+
+    .about-pic{
+        max-width: 180px;
+    }
+
+    .figcaption {
+        font-size: 65%;
+    }
+
+    
+
+    
   }
 
 
