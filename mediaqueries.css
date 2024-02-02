@@ -22,10 +22,12 @@
     #experience,
     .experience-details-container {
       margin-top: 2rem;
+      height: fit-content;
     }
     #profile,
     .section-container {
       display: block;
+      height:fit-content;
     }
     .arrow {
       display: none;
@@ -45,6 +47,9 @@
     .about-containers {
       margin-top: 0;
     }
+    .project-details{
+        font-size: 12px;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -56,6 +61,11 @@
       height: 83vh;
       margin-bottom: 0;
     }
+    #about {
+        height: fit-content;
+    }
+    
+    
     article {
       font-size: 1rem;
     }
@@ -65,13 +75,17 @@
     }
     .about-containers,
     .contact-info-upper-container,
-    .btn-container{
+    .btn-container, .about-container{
       flex-wrap: wrap;
+      justify-content: center;
     }
 
-    .profile-pic-container, .details-container{
+    .about-pic, .details-container{
         flex: wrap;
         size: 50%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     .contact-info-container {
@@ -81,9 +95,11 @@
     .nav-links li a {
       font-size: 1rem;
     }
-    .experience-sub-title {
-      font-size: 1.25rem;
+    
+    #about .curractivities{
+        font-size: 10px;
     }
+
     .logo {
       font-size: 1.5rem;
     }
@@ -111,40 +127,73 @@
 
     .about-pic{
         max-width: 180px;
+        justify-content: center;
+        
     }
 
     .figcaption {
         font-size: 65%;
     }
 
+    .activity-image{
+        width: 80px;
+    }
 
 
 
 
 
-    .project-img {
-        max-width: 100%;
+
+    .project-img, .project-image-container {
+        width: 100%;
         height: auto;
+    }
+
+    .overlay {
+        width: 100%;
     }
 
     .projects-container {
         flex-direction: column;
         align-items: center;
+
     }
 
     .project {
-        width: 100%;
-        margin: 0 10px;
+        width: 90%;
     }
+
 
     .overlay, .project-details {
         width: 100%;
         box-sizing: border-box;
     }
 
-    .project-details p, .project-title {
+    .project-title {
         font-size: smaller;
+        height: 50px;
     }
+
+    .project-details {
+        font-size: 15px;
+    }
+
+    .projects-container {
+        width: 100%; /* Ensures the container takes up full width */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Adjust as needed */
+    }
+    
+    .project {
+        width: 100%; /* Adjust based on preference, 100% for full width on small screens */
+        max-width: 320px; /* Or any max-width that suits your design */
+        margin: 0 auto; /* Centers the project if not full-width */
+    }
+    
+    
+
+    
 
     
 
