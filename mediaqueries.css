@@ -1,79 +1,106 @@
 @media screen and (max-width: 1400px) {
-    #profile{
-        height: 83vhr;
-        margin-bottom: 6rem;
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
     }
     .about-containers {
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
-}
-
-@media screen and (max-width: 1200px) {
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
     #desktop-nav {
-        display: none;
+      display: none;
     }
     #hamburger-nav {
-        display: flex;
+      display: flex;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    /* Adjustments for tablets and down to larger phones */
-    .nav-links, .btn-container, .section-container, .projects-container {
-        flex-direction: column;
-        align-items: center;
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
     }
-
-    .project, .activity, .contact-info-container, .details-container {
-        width: 100%;
-        text-align: center;
+    #profile,
+    .section-container {
+      display: block;
     }
-
-    .project-img, .activity-image, .about-pic {
-        max-width: 90%;
-        height: auto;
+    .arrow {
+      display: none;
     }
-
-    .hamburger-menu {
-        display: block;
+    section,
+    .section-container {
+      height: fit-content;
     }
-
-    .nav-links li {
-        padding: 10px;
+    section {
+      margin: 0 5%;
     }
-
-    #desktop-nav {
-        display: none;
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
     }
-
-    #hamburger-nav {
-        display: flex;
+    .about-containers {
+      margin-top: 0;
     }
-}
-
-@media only screen and (max-width: 480px) {
-    /* Adjustments specifically for smaller phones like iPhones */
-    .btn, .project-title, h2 {
-        font-size: smaller;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
     }
-
-    .project-image-container, .media-container .code-image, .media-container .app-video {
-        flex-direction: column;
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
     }
-
-    .media-container .code-image, .media-container .app-video {
-        width: 90%; /* Adjust the width to fit smaller screens */
+    article {
+      font-size: 1rem;
     }
-
-    .section__text__p1, .section__text__p2 {
-        font-size: 1rem; /* Adjust the font size for readability on smaller screens */
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
     }
-
-    .rounded-rectangle {
-        font-size: 0.8rem; /* Smaller font size for the education container */
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
     }
-}
-
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
 
 
 
