@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     yesCheckbox.addEventListener('change', () => {
         if(yesCheckbox.checked) {
-            alert('Yay! Happy Valentine\'s Day!');
+            alert('yay! love you babe, happy valentine\'s day!');
             // Optionally, redirect to another page or show more content
         }
     });
@@ -28,6 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             noLabelSpan.style.animation = '';
         }, 500); // Remove the animation so it can be triggered again
-        alert('Oh no! You cannot say no on Valentine\'s Day!');
+        alert('oh no no no, this is not the right answer. sorry try again');
     });
 });
