@@ -48,3 +48,41 @@ h4 {
     0%, 100% { transform: rotate(-5deg); }
     50% { transform: rotate(5deg); }
 }
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-img {
+        width: 80px; /* Smaller images on smaller screens */
+        height: 80px;
+    }
+
+    #valentineForm label {
+        font-size: 16px; /* Larger form elements for easier interaction */
+    }
+
+    h2 {
+        font-size: 24px; /* Adjust heading size for readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-img {
+        width: 150px; /* Even smaller images for very small screens */
+        height: 150px;
+    }
+
+    #valentineForm label {
+        font-size: 14px; /* Adjust form size for small screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller heading for smaller screens */
+    }
+
+    h3 {
+        font-size: 15px; /* Smaller heading for smaller screens */
+    }
+}
