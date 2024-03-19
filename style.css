@@ -575,6 +575,15 @@ section {
         margin-top: 20px;
         border-radius: 5px;
     }
+
+    #juno-learning .percentages {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            align-items: start;
+            width: 100%;
+            margin-top: 80px;
+    }
     
     #juno-learning .closing-remark {
         text-align: center;
