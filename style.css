@@ -551,8 +551,7 @@ section {
         border-radius: 10px;
     }
     
-    #juno-learning .genesis, 
-    #juno-learning .problem, 
+    #juno-learning .genesis,  
     #juno-learning .next-steps, 
     #juno-learning .lessons-learned {
         background-color: #f0f0f0; /* Light grey background */
@@ -560,7 +559,8 @@ section {
     
     #juno-learning .design, 
     #juno-learning .figma-mockups, 
-    #juno-learning .key-features {
+    #juno-learning .key-features, 
+    #juno-learning .problem {
         background-color: #ffffff; /* White background */
     }
     
@@ -582,7 +582,23 @@ section {
             gap: 20px;
             align-items: start;
             width: 100%;
-            margin-top: 80px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+    }
+
+    #juno-learning .percentage-icons {
+        height: 100px;
+
+    }
+
+    #juno-learning .persona-div {
+        
+        align-items: left;
+    }
+
+    #juno-learning .persona {
+        height: 200px;
+        align-self: left;
     }
     
     #juno-learning .closing-remark {
