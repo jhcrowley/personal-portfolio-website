@@ -490,6 +490,10 @@ section {
     font-weight: bold; /* Make it bold */
   }
 
+  .overlay .project-details .statuscomingsoon{
+    color: #284ca7; /* Orange-ish color */
+    font-weight: bold; /* Make it bold */
+  }
 
   
   
@@ -545,7 +549,8 @@ section {
         font-size: 2.5rem;
     }
     
-    #juno-learning .section {
+    #juno-learning .section,
+    #ete-redesign .section {
         margin-bottom: 40px;
         padding: 20px;
         border-radius: 10px;
@@ -553,7 +558,10 @@ section {
     
     #juno-learning .genesis,  
     #juno-learning .next-steps, 
-    #juno-learning .lessons-learned {
+    #juno-learning .lessons-learned, 
+    #ete-redesign .overview,
+    #ete-redesign .design-process,
+    #ete-redesign .outcome{
         background-color: #f0f0f0; /* Light grey background */
     }
     
@@ -574,6 +582,11 @@ section {
         height: auto;
         margin-top: 20px;
         border-radius: 5px;
+    }
+
+    #ete-redesign .project-image {
+        width: 50%;
+        border-radius: 20px;
     }
 
     #juno-learning .percentages {
@@ -607,7 +620,8 @@ section {
         font-style: italic;
     }
 
-    #juno-learning .logo-image{
+    #juno-learning .logo-image,
+    #ete-redesign .logo-image {
         width: 100%; /* Set the width to 100% of the container */
         height: auto; /* Height will scale automatically */
         max-width: 600px; /* Maximum width, adjust as needed */

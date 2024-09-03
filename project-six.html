@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackie Crowley</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">Jackie Crowley</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <!--<li><a href="#experience">Experience</a></li>-->
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><a href="index.html">Jackie Crowley</a></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+            <!--<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>-->
+            <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Unique Project Content -->
+    <section id="currency-exchange-app">
+      <h1 class="project-title">TEST 2</h1>
+
+      <!-- Introduction Section -->
+      <div class="section introduction" id="introduction">
+          <h2>Introduction</h2>
+          <p>Embarking on the journey to learn Python, I found the perfect opportunity to apply my skills in a real-world context. With my girlfriend on an exchange term in Copenhagen and my own travel plans to visit her and explore Europe, I faced the practical challenge of dealing with multiple currencies. This situation sparked the idea for a project that would not only aid in my travels but also jump start my journey into learning Python, specifically in automation tasks and API utilization.</p>
+          <!-- Placeholder for an image if needed -->
+          <!-- <img src="path-to-introduction-image.jpg" alt="Introduction Image" class="project-image"/> -->
+      </div>
+
+      <!-- The Project Section -->
+      <div class="section project-details" id="project-details">
+          <h2>The Project</h2>
+          <p>The heart of the project is a straightforward yet efficient currency converter, drawing data from the freecurrency API. One of the standout features is its ability to convert a single amount (like 450 DKK for a dinner in Denmark) into multiple currencies with just a click. This is particularly useful as our travel itinerary includes Italy and Iceland, bringing Euros, Icelandic Krona, and Danish Kroner into play.</p>
+          <p>Initially, the prospect of working with APIs seemed daunting. However, this project proved the process to be quite straightforward, showcasing the simplicity and power of Python in automating tasks and handling complex tasks effortlessly.</p>
+          <div class="media-container">
+            <img src="assets/screenshotcode.png" alt="Code Screenshot" class="code-image"/>
+            <video class="app-video" controls>
+                <source src="assets/video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+      </div>
+
+      <!-- Next Steps Section -->
+      <div class="section next-steps" id="next-steps">
+          <h2>Next Steps</h2>
+          <p>Following the completion of this project, I'm eager to dive deeper into Python and take on more challenging endeavors. One concept I'm excited about is developing a Movie Recommendation App, tailored to users' preferences based on their Letterboxd history. Perhaps even having the functionality of finding the perfect film for two people with different tastes to watch together. This future project promises to be an exciting intersection of my programming skills and passion for film.</p>
+      </div>
+
+      <p class="closing-remark">Thank you for exploring my projects! Looking forward to future collaborations.</p>
+  </section>
+
+    <!-- Footer (same as your main page) -->
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#projects">Projects</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Jackie Crowley. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
